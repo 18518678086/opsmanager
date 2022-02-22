@@ -1,0 +1,16 @@
+配置git
+git init
+git remote add origin git@github.com:18518678086/opsmanager.git
+
+配置vscode ssh
+
+安装Gin
+
+在命令行下执行安装
+
+go get -u github.com/gin-gonic/gin
+
+go mod init github.com/18518678086/opsmanager
+go mod tidy
+
+go run main.go
